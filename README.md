@@ -10,7 +10,7 @@ Follow these steps to set up an EKS cluster, configure Kubernetes, and deploy an
 1. **Create the EKS Cluster**  
    - Go to **EKS** in AWS Console.
    - Select **Add cluster** > **Create**.
-   - Name the cluster (e.g., `DemoEKSCluster`) and select the role from step 2.
+   - Name the cluster (e.g., `DemoEKSCluster`) and select the role with **AmazonEKSClusterPolicy**
    - Keep default settings for other options.
    - Click **Create**.
 
